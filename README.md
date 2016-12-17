@@ -6,7 +6,7 @@
 
 ---
 
-![2016 Travel](https://github.com/mkudija/Maps/blob/master/2016_travel.png)
+![2016 Travel](https://github.com/mkudija/Map-Tools/blob/master/2016_travel.png)
 
 
 # Requirements
