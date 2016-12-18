@@ -9,17 +9,17 @@ def get_distance(lat_orig, lng_orig, lat_des, lng_des):
     #   lat_orig (float): latitude of origin
     #   lng_orig (float): longitude of origin
     #   lat_des (float): latitude of destination
-    #   lng_des (float): longitude of destinatio
+    #   lng_des (float): longitude of destination
 
     # Return:
     #   nm (float): distance between coordinates in nautical miles
     #   mi (float): distance between coordinates in statute miles
     #   km (float): distance between coordinates in kilometers
 
-	nm = vincenty((lat_orig, lng_orig),(lat_des, lng_des)).nm
-	mi = vincenty((lat_orig, lng_orig),(lat_des, lng_des)).miles
-	km = vincenty((lat_orig, lng_orig),(lat_des, lng_des)).kilometers
-	return nm, mi, km 
+    nm = vincenty((lat_orig, lng_orig),(lat_des, lng_des)).nm
+    mi = vincenty((lat_orig, lng_orig),(lat_des, lng_des)).miles
+    km = vincenty((lat_orig, lng_orig),(lat_des, lng_des)).kilometers
+    return nm, mi, km 
 
 def get_lat_lng(payload):
     # Use the requests module and Google API to return the latitude and longitude of a location
