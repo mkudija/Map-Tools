@@ -3,13 +3,13 @@ import requests
 
 
 def get_distance(lat_orig, lng_orig, lat_des, lng_des):
-	# Use the vincenty method (geopy.distance) to return the distance between two sets of coordinates. 
-    
+    # Use the vincenty method (geopy.distance) to return the distance between two sets of coordinates. 
+
     # Args:
     #   lat_orig (float): latitude of origin
-	#   lng_orig (float): longitude of origin
-	#   lat_des (float): latitude of destination
-	#   lng_des (float): longitude of destination
+    #   lng_orig (float): longitude of origin
+    #   lat_des (float): latitude of destination
+    #   lng_des (float): longitude of destinatio
 
     # Return:
     #   nm (float): distance between coordinates in nautical miles
@@ -22,11 +22,11 @@ def get_distance(lat_orig, lng_orig, lat_des, lng_des):
 	return nm, mi, km 
 
 def get_lat_lng(payload):
-	# Use the requests module and Google API to return the latitude and longitude of a location.
+    # Use the requests module and Google API to return the latitude and longitude of a location
 
     # Args:
     #   payload (str): of the format 'https://maps.googleapis.com/maps/api/geocode/json?address=COLUMBUS+OH+UNITED+STATES'
-    
+
     # Return:
     #   lat (float): latitude
     #   lng (float): longitude
