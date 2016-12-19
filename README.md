@@ -38,3 +38,4 @@ Clone this repo using `https://github.com/mkudija/Map-Tools.git`.
  * requires calculating half-way distance on great circle, see [here](https://www.mathworks.com/matlabcentral/answers/229312-how-to-calculate-the-middle-point-between-two-points-on-the-earth-in-matlab?requestedDomain=www.mathworks.com)
 * Add icon at origin/destination
 * Add flag for plotting paths or not
+* plot range rings
