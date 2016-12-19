@@ -17,7 +17,24 @@
 * requests 2.11.1
 * geopy 1.11.0
 * basemap 1.0.7
+* image 1.5.5
 
 
 # Installation
-Clone this repo using `https://github.com/mkudija/Maps.git` and run [Map-tools.ipynb](https://github.com/mkudija/Aircraft-Spec-Charts/blob/master/Aircraft-Spec-Charts.ipynb)
+Clone this repo using `https://github.com/mkudija/Map-Tools.git`.
+
+# Run
+
+1. Plan out the route(s) to be plotted. Enter the names of the origin and destination locations in [`data/locations (no_lat-lng).csv`](https://github.com/mkudija/Map-Tools/blob/master/data/locations%20(no_lat-lng).csv). Entering latitude and longitude is not required, but can be entered if desired.
+
+2. Run [`(1)_get_lat-lng.ipynb`](https://github.com/mkudija/Map-Tools/blob/master/(1)_get_lat-lng.ipynb). This script (A) uses the Google API to find the latitude and longitude of the origin and destination locations, and (B) calculates the great circle distance between these locations in nautical miles, statute miles, and kilometers. The result is saved as [`locations.csv`](https://github.com/mkudija/Map-Tools/blob/master/data/locations.csv).
+
+3. Run [`(2)_plot_trips.ipynb`](https://github.com/mkudija/Map-Tools/blob/master/(2)_plot_trips.ipynb). This uses the Python basemap package to plot the great circle lines between each origin and destination. 
+
+## Improvements/Additions
+* Logic to not overwrite lat/lng if present in [`data/locations (no_lat-lng).csv`](https://github.com/mkudija/Map-Tools/blob/master/data/locations%20(no_lat-lng).csv).
+* Labels to points on map
+* Distance between points
+ * requires calculating half-way distance on great circle, see [here](https://www.mathworks.com/matlabcentral/answers/229312-how-to-calculate-the-middle-point-between-two-points-on-the-earth-in-matlab?requestedDomain=www.mathworks.com)
+* Add icon at origin/destination
+* Add flag for plotting paths or not
