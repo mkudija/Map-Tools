@@ -25,20 +25,21 @@ Matplotlib basemap is compatible with Python 2.7 and 3.5 on Unix (Mac) systems, 
  
 1. Install basemap on Python 3.5 (via Christoph Gohlke):
 
-* Navigate to [**http://www.lfd.uci.edu/~gohlke/pythonlibs/**](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
-* Select the appropriate basemap.whl file. For 64 bit Windows running Python 3.5 use `basemap‑1.0.8‑cp35‑none‑win_amd64.whl`. Download the file to your computer.
-* Open command prompt and `cd` into the directory that contains `basemap‑1.0.8‑cp35‑none‑win_amd64.whl`
-* Run: `pip install basemap‑1.0.8‑cp35‑none‑win_amd64.whl`
-* Initiate Python by running `python`
-* Verify basemap is installed by running `from mpl_toolkits.basemap import Basemap` and verify no errors
- * :warning: Note that running `import basemap` will always give an error even if installed properly, which tripped me up initially
+ * Navigate to [**http://www.lfd.uci.edu/~gohlke/pythonlibs/**](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
+ * Select the appropriate basemap.whl file. For 64 bit Windows running Python 3.5 use `basemap‑1.0.8‑cp35‑none‑win_amd64.whl`. Download the file to your computer.
+ * Open command prompt and `cd` into the directory that contains `basemap‑1.0.8‑cp35‑none‑win_amd64.whl`
+ * Run: `pip install basemap‑1.0.8‑cp35‑none‑win_amd64.whl`
+ * Initiate Python by running `python`
+ * Verify basemap is installed by running `from mpl_toolkits.basemap import Basemap` and verify no errors
+  * :warning: Note that running `import basemap` will always give an error even if installed properly, which tripped me up initially
  
 2. Create a Python 2.7 environment and install basemap there. Reference [Managing Environments](http://conda.pydata.org/docs/using/envs.html) and [Managing Python](http://conda.pydata.org/docs/py2or3.html)
-* Create a Python 2.7 environment called “py27”: `conda create -n py27 python=2.7 anaconda`
-* Activate `py27` by running: `activate py27`
-* Install basemap by running: `conda install basmap` or `pip install basemap`
-* Verify basemap is installed by running `from mpl_toolkits.basemap import Basemap` and verify no errors
- * :warning: Note that running `import basemap` will always give an error even if installed properly, which tripped me up initially
+
+ * Create a Python 2.7 environment called “py27”: `conda create -n py27 python=2.7 anaconda`
+ * Activate `py27` by running: `activate py27`
+ * Install basemap by running: `conda install basmap` or `pip install basemap`
+ * Verify basemap is installed by running `from mpl_toolkits.basemap import Basemap` and verify no errors
+  * :warning: Note that running `import basemap` will always give an error even if installed properly, which tripped me up initially
 
 # Installation
 Clone this repo using [`https://github.com/mkudija/Map-Tools.git`](https://github.com/mkudija/Map-Tools.git).
