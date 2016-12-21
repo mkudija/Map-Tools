@@ -55,8 +55,8 @@ Clone this repo using [`https://github.com/mkudija/Map-Tools.git`](https://githu
 ## Improvements/Additions
 * Logic to not overwrite lat/lng if present in [`data/locations (no_lat-lng).csv`](https://github.com/mkudija/Map-Tools/blob/master/data/locations%20(no_lat-lng).csv).
 * Labels to points on map
-* Distance between points
- * requires calculating half-way distance on great circle, see [here](https://www.mathworks.com/matlabcentral/answers/229312-how-to-calculate-the-middle-point-between-two-points-on-the-earth-in-matlab?requestedDomain=www.mathworks.com)
+* Distance between points, use [gcpoints](http://basemaptutorial.readthedocs.io/en/latest/utilities.html#gcpoints)
 * Add icon at origin/destination
 * Add flag for plotting paths or not
 * plot range rings
+* plot scale
