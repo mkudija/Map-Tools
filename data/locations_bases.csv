@@ -1,1 +1,5 @@
-Name_Orig,Lat_Orig,Lng_Orig,Name_Des,Lat_Des,Lng_Des"Dublin, Ireland",,,"Isle of Man, UK",,"Dublin, Ireland",,,"Liverpool, UK",,"Dublin, Ireland",,,"Belfast, Ireland",,"Dublin, Ireland",,,"Wolf's Castle, UK",,
+Name_Orig,Lat_Orig,Lng_Orig,Name_Des,Lat_Des,Lng_Des,Distance (nm),Distance (mi),Distance (km)
+"Dublin, Ireland",53.35,-6.26,"Isle of Man, UK",54.236,-4.548,80.9,93.1,149.9
+"Dublin, Ireland",53.35,-6.26,"Liverpool, UK",53.408,-2.992,117.5,135.2,217.6
+"Dublin, Ireland",53.35,-6.26,"Belfast, Ireland",54.597,-5.93,75.9,87.3,140.5
+"Dublin, Ireland",53.35,-6.26,"Wolf's Castle, UK",51.902,-4.971,99.0,113.9,183.3
