@@ -46,15 +46,20 @@ Clone this repo using [`https://github.com/mkudija/Map-Tools.git`](https://githu
 
 # Run
 
-1. Plan out the route(s) to be plotted. Enter the names of the origin and destination locations in [`data/locations (no_lat-lng).csv`](https://github.com/mkudija/Map-Tools/blob/master/data/locations%20(no_lat-lng).csv). Entering latitude and longitude is not required, but can be entered if desired.
+## Prepare Data
 
-2. Run [`(1)_get_lat-lng.ipynb`](https://github.com/mkudija/Map-Tools/blob/master/(1)_get_lat-lng.ipynb). This script (A) uses the Google API to find the latitude and longitude of the origin and destination locations, and (B) calculates the great circle distance between these locations in nautical miles, statute miles, and kilometers. The result is saved as [`locations.csv`](https://github.com/mkudija/Map-Tools/blob/master/data/locations.csv).
+* Plan out the route(s) to be plotted. Enter the names of the origin and destination locations in [`data/locations (no_lat-lng).csv`](https://github.com/mkudija/Map-Tools/blob/master/data/locations%20(no_lat-lng).csv). Entering latitude and longitude is not required, but can be entered if desired.
 
-3. Run [`(2)_plot_trips.ipynb`](https://github.com/mkudija/Map-Tools/blob/master/(2)_plot_trips.ipynb). This uses the Python basemap package to plot the great circle lines between each origin and destination. 
+* Run [`(1)_get_lat-lng.ipynb`](https://github.com/mkudija/Map-Tools/blob/master/(1)_get_lat-lng.ipynb). This script (A) uses the Google API to find the latitude and longitude of the origin and destination locations, and (B) calculates the great circle distance between these locations in nautical miles, statute miles, and kilometers. The result is saved as [`locations.csv`](https://github.com/mkudija/Map-Tools/blob/master/data/locations.csv).
+
+## Plot Great Circles
+
+* Run [`(2)_plot_trips.ipynb`](https://github.com/mkudija/Map-Tools/blob/master/(2)_plot_trips.ipynb). This uses the Python basemap package to plot the great circle lines between each origin and destination. 
 
 ![2016 Travel](https://github.com/mkudija/Map-Tools/blob/master/2016_travel.png)
 
+## Plot Range Rings
 
-4. To plot range rings, run [`plot_range_rings.py`](https://github.com/mkudija/Map-Tools/blob/master/plot_range_rings.py). This gathers data from the appropriate data file, and places an icon on the map at each origin (and destination as desired) and range rings around the origin. The radius and number of range rings can be configured.
+* To plot range rings, run [`plot_range_rings.py`](https://github.com/mkudija/Map-Tools/blob/master/plot_range_rings.py). This gathers data from the appropriate data file, and places an icon on the map at each origin (and destination as desired) and range rings around the origin. The radius and number of range rings can be configured.
 
 ![Range Rings](https://github.com/mkudija/Map-Tools/blob/master/2016-12-31_map.png)
