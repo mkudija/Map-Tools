@@ -52,11 +52,9 @@ Clone this repo using [`https://github.com/mkudija/Map-Tools.git`](https://githu
 
 3. Run [`(2)_plot_trips.ipynb`](https://github.com/mkudija/Map-Tools/blob/master/(2)_plot_trips.ipynb). This uses the Python basemap package to plot the great circle lines between each origin and destination. 
 
-## Improvements/Additions
-* Logic to not overwrite lat/lng if present in [`data/locations (no_lat-lng).csv`](https://github.com/mkudija/Map-Tools/blob/master/data/locations%20(no_lat-lng).csv).
-* Labels to points on map
-* Distance between points, use [gcpoints](http://basemaptutorial.readthedocs.io/en/latest/utilities.html#gcpoints)
-* Add icon at origin/destination
-* Add flag for plotting paths or not
-* plot range rings
-* plot scale
+![2016 Travel](https://github.com/mkudija/Map-Tools/blob/master/2016_travel.png)
+
+
+4. To plot range rings, run [`plot_range_rings.py`](https://github.com/mkudija/Map-Tools/blob/master/plot_range_rings.py). This gathers data from the appropriate data file, and places an icon on the map at each origin (and destination as desired) and range rings around the origin. The radius and number of range rings can be configured.
+
+![Range Rings](https://github.com/mkudija/Map-Tools/blob/master/2016-12-31_map.png)
