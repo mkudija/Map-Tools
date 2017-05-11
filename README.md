@@ -46,7 +46,8 @@ Matplotlib basemap is compatible with Python 2.7 and 3.5 on Unix (Mac) systems, 
   * :warning: Note that running `import basemap` will always give an error even if installed properly, which tripped me up initially
 
 #### Cartopy
-[Cartopy](http://scitools.org.uk/cartopy/docs/latest/index.html#) is a possible alternative to Basemap that I have not worked with.
+[Cartopy](http://scitools.org.uk/cartopy/docs/latest/index.html#) is the new development of Basemap, but I have not worked with it yet. From the [Basemap website](http://matplotlib.org/basemap/users/intro.html#cartopy-new-management-and-eol-announcement):
+>Starting in 2016, Basemap came under new management. The Cartopy project will replace Basemap, but it hasn’t yet implemented all of Basemap’s features. All new software development should try to use Cartopy whenever possible, and existing software should start the process of switching over to use Cartopy. All maintenance and development efforts should be focused on Cartopy.
 
 # Installation
 Clone this repo using [`https://github.com/mkudija/Map-Tools.git`](https://github.com/mkudija/Map-Tools.git).
