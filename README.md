@@ -23,7 +23,7 @@
 * basemap 1.0.7
 * image 1.5.5
 
-#### Basemap
+<h4 id="basemap">Basemap</h4>
 
 Matplotlib basemap is compatible with Python 2.7 and 3.5 on Unix (Mac) systems, but only 2.7 on Windows. To install basemap on a Windows computer running Python 3.5, you have two options:
  
