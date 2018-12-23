@@ -12,6 +12,8 @@
 ## 2017 Travel
 ![2017 Travel](https://github.com/mkudija/Map-Tools/blob/master/2017_travel.png)
 
+## 2018 Travel
+![2018 Travel](https://github.com/mkudija/Map-Tools/blob/master/2018_travel.png)
 
 # Requirements
 
