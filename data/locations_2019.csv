@@ -1,8 +1,1 @@
-Name_Orig,Lat_Orig,Lng_Orig,Name_Des,Lat_Des,Lng_Des,Distance (nm),Distance (mi),Distance (km)
-"Columbus, OH",39.961,-82.999,"Cincinnati, OH",41.4993,-81.6944,0,0,0
-"Columbus, OH",39.961,-82.999,"Dublin, Ireland",53.35,-6.26,0,0,0
-"Columbus, OH",39.961,-82.999,"Dubai, UAE",25.276,55.296,0,0,0
-"Columbus, OH",39.961,-82.999,"White Sulphur Springs, WV",37.7965,-80.297,0,0,0
-"Columbus, OH",39.961,-82.999,"Wellfleet, MA",41.9305,-70.0309,0,0,0
-"Columbus, OH",39.961,-82.999,"Nashville, TN",36.174,-86.767,0,0,0
-"Columbus, OH",39.961,-82.999,"Paso Robles, CA",35.637,-120.655,0,0,0
+Name_Orig,Lat_Orig,Lng_Orig,Name_Des,Lat_Des,Lng_Des,Distance (nm),Distance (mi),Distance (km)"Columbus, OH",39.961,-82.999,"Cincinnati, OH",39.103119,-84.512016,0,0,0"Columbus, OH",39.961,-82.999,"Dublin, Ireland",53.35,-6.26,0,0,0"Columbus, OH",39.961,-82.999,"Dubai, UAE",25.276,55.296,0,0,0"Columbus, OH",39.961,-82.999,"White Sulphur Springs, WV",37.7965,-80.297,0,0,0"Columbus, OH",39.961,-82.999,"Wellfleet, MA",41.9305,-70.0309,0,0,0"Columbus, OH",39.961,-82.999,"Nashville, TN",36.174,-86.767,0,0,0"Columbus, OH",39.961,-82.999,"Paso Robles, CA",35.637,-120.655,0,0,0
